@@ -1,6 +1,7 @@
 package com.hly.ui.login.activity;
 import com.hly.R;
 import com.hly.base.BaseActivity;
+import com.hly.ui.login.My;
 import com.hly.ui.login.model.LoginModel;
 import com.hly.ui.login.presenter.LoginPresenter;
 import com.hly.ui.login.view.LoginView;
@@ -25,6 +26,8 @@ public class LoginActivity extends BaseActivity<LoginPresenter, LoginModel> impl
     @Override
     protected void initView(){
         mPresenter.getLoign("111","222"); //请求
+        My.INSTANCE.a();
+        My.INSTANCE.b();
     }
 
     @Override

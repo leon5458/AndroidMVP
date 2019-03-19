@@ -8,5 +8,4 @@ package com.hly.base;
  * ~~~~~~版本号:2.0~~~~~~
  */
 public interface BaseModel {
-
 }
